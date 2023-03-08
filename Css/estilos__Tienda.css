@@ -1,0 +1,464 @@
+/* Reseteo de propiedades */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/** LAYOUT**/
+/*** display/position ***/
+/********************* NAV *****************/
+
+
+body{
+
+    background-color:white;
+}
+
+.caja__nav{
+
+    position: fixed;
+    z-index: 999;
+    margin-top: 0px;
+    min-width: 980px;
+
+}
+ 
+.body__nav{
+    
+    width: 100%;
+    height: 165px;
+    position: fixed; 
+    background-color: white;
+}
+
+.logo__1{
+
+    position: absolute;
+    top: 20px;
+    left: 820px;
+}
+
+
+.body__list__inicio {
+
+    display: inline-block;
+    position: relative;
+    width: 7%;
+    height: 20px;
+    left: 550px;
+    top: 100px;
+    text-align: center;
+    font-size: 14px;
+    border-right:1px solid #fe2a00;
+    line-height: 23px;
+    color: white;
+}
+ 
+.body__list__qatar{
+
+    display: inline-block;
+    position: relative;
+    width: 7%;
+    height: 20px;
+    left: 550px;
+    top: 100px;
+    text-align: center;
+    font-size: 14px;
+    border-right:1px solid #fe2a00;
+    line-height: 23px;
+
+}
+
+
+.body__list__tienda a {
+    
+    color: #ff692f;
+}
+
+.body__list__otrasCompeticiones{
+
+    display: inline-block;
+    position: relative;
+    width: 11%;
+    height: 20px;
+    top: 100px;
+    left: 550px;
+    text-align: center;
+    font-size: 14px;
+    border-right:1px solid #fe2a00;
+}
+
+
+.sublista li{
+    padding: 10px 15px 10px 25px;
+}
+
+.sublista a{
+    color: black;
+}
+
+
+.body__nav__ul li:hover > .sublista {
+    
+    display:block;
+    color: black;
+
+}
+
+.sublista{
+
+    display: none;
+    list-style: none;
+    position: absolute;
+    background: white;    
+    opacity: 95%;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.body__list__mundiales{
+
+    display: inline-block;
+    position: relative;
+    width: 7%;
+    height: 20px;
+    left: 550px;
+    top: 100px;
+    text-align: center;
+    font-size: 14px;
+    border-right:  1PX solid #fe2a00;
+
+}
+
+.body__list__tienda{
+
+    display: inline-block;
+    position: relative;
+    width: 7%;
+    height: 20px;
+    left: 550px;
+    top: 100px;
+    text-align: center;
+    font-size: 14px;
+
+
+}
+.logo__redes{
+
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+.inicio__sesion{
+    position: relative;
+    left: 1550px;
+}
+
+.inicio__sesion:hover > .sublista{
+    display: block;
+    top: 40px;
+    left: 35px;
+}
+
+
+/*** height/width/padding/border/margin ***/
+/** NAV **/
+
+nav ul li a{
+
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.body__nav__ul{
+
+    text-decoration: none;
+    color: #ff692f;
+    list-style: none;
+}
+
+.body__nav__ul li a:hover{
+
+    color: #ff692f;
+    transition: 0.4s;
+}
+/** HEADER **/
+
+.caja__header{
+
+    position: relative;
+    height: 200px;
+    top: 190px;
+    background-color:#fe2a00;
+}
+
+.header__title{
+
+    position: relative;
+    color: black;
+    font-family: 'Anton';
+    font-size: 60px;
+    text-align: center;
+    top: 30px;
+    font-weight: 400;
+}
+
+.header__texto{
+
+    position: relative;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+/** MAIN **/
+
+.caja__tienda{
+
+    position: relative;
+    background-color:#fff;
+    height: 800px;
+    top: 190px;
+    margin-top: 100px;
+}
+
+.caja__total{
+
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    left: 500px;
+}
+
+
+.caja__total p{
+    
+    position: absolute;
+    top: 230px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+span{
+    
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    top: 12px;
+}
+
+figure{
+
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+
+figcaption{
+
+    transition: 0.4s;
+    color: black;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    bottom: -150px;
+    left: 0px;
+    padding: 7%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+
+figure:hover figcaption{
+
+    bottom: 0px;
+}
+
+/** pos precios **/
+
+.tienda__texto1{
+
+    position: relative;
+    width: 20%;
+    left: 50px;
+    margin-top: 55px;
+}
+
+.tienda__texto2{
+
+    position: relative;
+    width: 20%;
+    left: 380px;
+    margin-top: 385px;
+}
+.tienda__texto3{
+
+    position: relative;
+    width: 20%;
+    left: 710px;
+    margin-top: 385px;
+}
+.tienda__texto4{
+
+    position: relative;
+    width: 20%;
+    left: 380px;
+    margin-top: 55px;
+}
+.tienda__texto5{
+
+    position: relative;
+    width: 20%;
+    left: 50px;
+    margin-top: 385px;
+}
+.tienda__texto6{
+
+    position: relative;
+    width: 20%;
+    left: 710px;
+    margin-top: 55px;
+}
+
+
+
+/** tienda **/
+/** cajas:hover **/
+
+.caja__individual1{
+    
+    height: 225px;
+    width: 225px;
+    margin: 50px;
+    background-image: url(../imagenesWEB/camisetsespaña.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.caja__individual1:hover{
+
+    background-image: url(../imagenesWEB/camisetsEspañaEspalda.webp);
+}
+
+
+.caja__individual2{
+    
+    height: 225px;
+    width: 225px;
+    background-color: #fff;
+    border: 1px solid black;
+    margin: 50px;
+    background-image: url(../imagenesWEB/pelota1.webp);
+    background-position: center;
+    background-size: cover;
+}
+.caja__individual2:hover{
+
+    background-image: url(../imagenesWEB/pelota2.webp);
+}
+
+.caja__individual3{
+    
+    height: 225px;
+    width: 225px;
+    background-color: #fff;
+    border: 1px solid black;
+    margin: 50px;
+    background-image: url(../imagenesWEB/arg2.webp);
+    background-position: center;
+    background-size: cover;
+}
+.caja__individual3:hover{
+
+    background-image: url(../imagenesWEB/arg2Espalda.webp);
+}
+
+.caja__individual4{
+    
+    position: relative;
+    height: 225px;
+    width: 225px;
+    background-color: #fff;
+    border: 1px solid black;
+    margin: 50px;
+    background-image: url(../imagenesWEB/brasil1.webp);
+    background-position: center;
+    background-size: cover;
+}
+.caja__individual4:hover{
+
+    background-image: url(../imagenesWEB/brasilEspalda.webp);
+}
+
+.caja__individual5{
+    
+    position: relative;
+    height: 225px;
+    width: 225px;
+    background-color: #fff;
+    border: 1px solid black;
+    margin: 50px;
+    background-image: url(../imagenesWEB/camisetaArgentina.webp);
+    background-position: center;
+    background-size: cover;
+}
+.caja__individual5:hover{
+
+    background-image: url(../imagenesWEB/camisetaArgEspalda.webp);
+}
+
+.caja__individual6{
+    
+    position: relative;
+    height: 225px;
+    width: 225px;
+    background-color: #fff;
+    border: 1px solid black;
+    margin: 50px;
+    background-image: url(../imagenesWEB/holanda1.webp);
+    background-position: center;
+    background-size: cover;
+}
+.caja__individual6:hover{
+
+    background-image: url(../imagenesWEB/holanda1Espalda.webp);
+}
+
+/** FOOTER **/
+
+.caja__footer{
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 8%;
+    background-color: #fff;
+    text-align: center;
+    align-items:  center;
+    top: 200px;
+}
+
+.texto__footer{
+
+    position: relative;
+    left: 40%;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: 'Montserrat';
+}
+

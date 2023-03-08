@@ -1,0 +1,256 @@
+/* Reseteo de propiedades */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/** LAYOUT**/
+/*** display/position ***/
+/********************* NAV *****************/
+
+.caja__nav{
+
+    position: fixed;
+    z-index: 999;
+    margin-top: 0px;
+    min-width: 980px;
+
+}
+ 
+.body__nav{
+    
+    width: 100%;
+    height: 165px;
+    position: fixed; 
+    background-color: white;
+}
+
+.logo__1{
+
+    position: absolute;
+    top: 20px;
+    left: 820px;
+}
+
+
+.body__list__inicio {
+
+    display: inline-block;
+    position: relative;
+    width: 7%;
+    height: 20px;
+    left: 550px;
+    top: 100px;
+    text-align: center;
+    font-size: 14px;
+    border-right:1px solid #fe2a00;
+    line-height: 23px;
+    color: white;
+}
+ 
+.body__list__qatar{
+
+    display: inline-block;
+    position: relative;
+    width: 7%;
+    height: 20px;
+    left: 550px;
+    top: 100px;
+    text-align: center;
+    font-size: 14px;
+    border-right:1px solid #fe2a00;
+    line-height: 23px;
+
+}
+
+
+.body__list__mundiales a{
+    
+    color: #ff692f;
+}
+.body__list__otrasCompeticiones{
+
+    display: inline-block;
+    position: relative;
+    width: 11%;
+    height: 20px;
+    top: 100px;
+    left: 550px;
+    text-align: center;
+    font-size: 14px;
+    border-right:1px solid #fe2a00;
+}
+
+.sublista li{
+    padding: 10px 15px 10px 25px;
+}
+
+.sublista a{
+    color: black;
+}
+
+
+.body__nav__ul li:hover > .sublista {
+    
+    display:block;
+    color: black;
+
+}
+
+.sublista{
+
+    display: none;
+    list-style: none;
+    position: absolute;
+    background: white;    
+    opacity: 95%;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.body__list__mundiales{
+
+    display: inline-block;
+    position: relative;
+    width: 7%;
+    height: 20px;
+    left: 550px;
+    top: 100px;
+    text-align: center;
+    font-size: 14px;
+    border-right:  1PX solid #fe2a00;
+
+}
+
+.body__list__tienda{
+
+    display: inline-block;
+    position: relative;
+    width: 7%;
+    height: 20px;
+    left: 550px;
+    top: 100px;
+    text-align: center;
+    font-size: 14px;
+
+
+}
+
+.logo__redes{
+
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+.inicio__sesion{
+    position: relative;
+    left: 1550px;
+}
+
+.inicio__sesion:hover > .sublista{
+    display: block;
+    top: 40px;
+    left: 35px;
+}
+
+
+/*** height/width/padding/border/margin ***/
+/** NAV **/
+
+nav ul li a{
+
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.body__nav__ul{
+
+    text-decoration: none;
+    color: #ff692f;
+    list-style: none;
+}
+
+.body__nav__ul li a:hover{
+
+    color: #ff692f;
+    transition: 0.4s;
+}
+
+/** HEADER **/
+
+.caja__header{
+
+    position: relative;
+    top: 165px;
+    height: 400px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
+    )
+    ,url(../imagenesWEB/copaMundial.webp);
+    background-repeat: repeat;
+    background-position: center center;
+        
+}
+
+
+.header__title{
+
+    position: relative;
+    font-family: 'Anton';
+    color: white;
+    text-align: center;
+    top: 120px;
+    font-size: 50px;
+}
+
+.header__texto{
+
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 150px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 25.5px;
+}
+
+.mundiales{
+
+    color: #fe2a00;
+}
+
+.informacion{
+
+    height: 80%;
+    background-color: white;
+}
+/** FOOTER **/
+
+.caja__footer{
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 8%;
+    background-color: #fff;
+    text-align: center;
+    align-items:  center;
+}
+
+.texto__footer{
+
+    position: relative;
+    left: 40%;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: 'Montserrat';
+}
+

@@ -1,0 +1,1339 @@
+/* Reseteo de propiedades */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+    /** LAYOUT**/
+    /*** display/position ***/
+    /********************* NAV *****************/
+    
+        
+    .parallax{
+
+        background: #fff fixed no-repeat 50% 50%;
+        background-size: cover;
+    }
+
+    #section1{
+
+        background-image: url(../imagenesWEB/campoFutbol.jpg);
+
+    }
+
+    .checkbtn{
+        font-size: 30px;
+        color: black;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+
+    #check{
+        display: none;
+    }
+
+    
+    .caja__nav{
+
+        text-transform: uppercase;
+        position: fixed;
+        z-index: 999;
+    }
+    
+    .body__nav{
+        
+        position: fixed; 
+        width: 100%;
+        height: 21%;
+        background-color: white;
+    }
+
+    .logo__1{
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: 40px;
+   }
+
+    .body__nav__ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 900;
+    }
+
+    .body__nav__ul > li{
+
+        position: relative;
+        display: inline-block;
+        width: 150px;
+        height: 16%;
+        top: 65px;
+        text-align: center;
+        padding: 6px;
+        border-right: 1px solid #fe2a00;
+    }
+
+
+
+    .body__list__inicio a{
+        
+        color: #ff692f;
+    }
+    
+
+    .sublista{
+
+        display: none;
+        list-style: none;
+        position: absolute;
+        background: #b5b9b5;
+        font-size: 13px;
+        width: 150px;
+        right: 0px;
+        margin-top: 7px;
+    }
+
+    .sublista li{
+        padding: 10px 0 5px 0; 
+        border: 1px solid grey;       
+    }
+
+    .body__nav__ul li:hover > .sublista {
+        
+        transition: 0.6s;
+        display: block;
+    }
+
+    .sublista > a:hover{
+
+        background-color: grey;
+        transition: 0.6s;
+
+    }
+
+    .logo__redes{
+
+        position: relative;
+        float: left;
+        padding-left: 50px;
+        bottom: 30px;
+    }
+
+    .inicio__sesion{
+        position: relative;
+        float: right;
+        bottom: 30px;
+        padding-right: 40px;
+    }
+
+    .inicio__sesion:hover > .sublista{
+        display: block;        
+        left: 20px;
+    }
+
+
+
+    /*** height/width/padding/border/margin ***/
+    /** NAV **/
+
+    nav ul li a{
+
+        color: black;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    .body__nav__ul{
+
+        text-decoration: none;
+        color: #ff692f;
+        list-style: none;
+    }
+
+    .body__nav__ul li a:hover{
+
+        color: #ff692f;
+        transition: 0.4s;
+    }
+    /** HEADER **/
+
+    .parallax__inaugural{
+
+        width: 100%;
+        height: 55%;
+        background: #fff fixed no-repeat 50% 50%;
+        background-size: cover;
+        z-index: -1;
+
+    }
+
+    #section2{
+
+        background-image: url(../imagenesWEB/pelotamundial.jpg);                           
+
+    }
+
+    header{
+
+        width: 100%;
+        height: 90%;
+        overflow: hidden;
+    }
+
+    .caja__header{
+
+        text-transform: uppercase;
+    }
+
+
+    .header__title{
+        
+        position: relative;
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        top: 250px;
+        
+    }
+
+
+ .header__FUTDREAM {
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #FC5404 0%,
+        #f98404 29%,
+        rgb( 214,12,30) 67%,
+        #F9B208 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3.5s linear infinite;
+    display: inline-block;
+    font-size: 190px;
+    }
+
+    @keyframes textclip {
+    to {
+        background-position: 200% center;
+    } 
+    }
+      
+
+    .header__FUTDREAM{
+
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 105px;
+        font-family: 'Anton';
+        text-align: center;
+        top: 250px;
+    }
+
+    .linea__titulo{
+
+        position: absolute;
+        width: 2%;
+        left: 43%;
+        top: 27.5%;
+    }
+
+    .linea__titulo2{
+
+        position: absolute;
+        width: 2%;
+        left: 55%;
+        top: 27.5%;
+    }
+
+    .DREAM{
+
+        padding-left: 25px;
+    }
+
+    .texto{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: 260px;
+        font-size: 17px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /** MAIN **/
+
+    .cartas{
+
+        width: 100%;
+        height: 60%;
+        background-color: white;
+        border: 1px solid black;
+        font-size: 100%;
+
+    }
+
+    .boton__mobile{
+        display: none;
+    }
+
+    .section__post__1{
+
+        width: 600px;
+        height: 43%;
+        left: 34%;
+        bottom: 30%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        border: 1px solid black;
+        background-color: white;
+
+    }
+
+    .post__img__1{
+
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    .post__p__1{
+
+        position: relative;
+        padding-left: 40px;
+        padding-bottom: 20px;
+        top: 10%;
+        text-align: left;
+        font-weight: 700;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .post__p__1:hover{
+
+        color:#fe2a00;
+        transition: 0.4s;
+    }
+
+    .section__secundaria{
+
+        display: flex;
+        flex-direction: row;
+        width: 12%;
+        position: relative;
+        left: 30%;
+        bottom: 20%;
+        height: 52%;
+    }
+
+
+    .section__post__2{
+
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        border: 1px solid black;
+        margin: 8%;
+
+    }
+
+    .post__img__2{
+
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        width: 215px;
+        height: 130px;
+        object-fit: cover;
+    }
+
+    .post__p__2{
+
+        width: 100%;
+        height: 45%;
+        background-color: #fff;
+        padding: 20px 15px;
+        text-align: initial;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .post__p__2:hover{
+
+        color: #fe2a00;
+        transition: 0.4s;
+
+    }
+
+
+    /***** section tienda*****/
+    .cuenta__atras{
+
+        position: relative;
+        height: 9%;
+        background-color: #fe2a00;
+        text-align: center;
+    }
+
+    .cuenta__atras p{
+        position: relative;
+        font-size: 40px;
+        font-family: 'Anton';
+        font-weight: 600;
+        top: 10px;
+        text-transform: uppercase;
+    }
+
+
+   
+
+    /***** section tienda *****/
+    .caja__tiendas{
+
+        position: relative;
+        height: 80%;
+        background-color: black;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tienda{
+
+        position: relative;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Anton';
+        font-size: 56px;
+        font-weight: 400;
+        padding: 50px 50px;
+    }
+
+    .container__img{
+
+        position: relative;
+        display: inline-block;
+    }
+    .container__img__1{
+
+        position: relative;
+        display: inline-block;
+        width: 420px;
+        height: 420px;
+        right: 35px ;
+        background-image: url(../imagenesWEB/camisetaArgentina.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+
+
+    .container__img__2{
+        
+        position: relative;
+        display: inline-block;
+        width: 420px;
+        height: 420px;
+        right: 260px;
+        background-image: url(../imagenesWEB/camisetsespaña.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+
+    }
+
+    .container__img p{
+
+        position: relative;
+        display: inline-block;
+        color: #fafafa;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .texto1__img__tienda{
+
+        left: 300px;
+        top: 50px;
+    }
+
+    .texto2__img__tienda{
+
+        left: 70px;
+        top: 50px;
+    }
+
+    .span__tienda{
+
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+    /* hover tienda*/
+
+    .container__img__1:hover{
+
+        transition: 0.3s;
+        background-image: url(../imagenesWEB/camisetaArgEspalda.webp);
+    }
+
+    .container__img__2:hover{
+
+        transition: 0.3s;
+        background-image: url(../imagenesWEB/camisetsEspañaEspalda.webp);
+        box-shadow: inset; 
+    }
+
+    figure{
+
+        overflow: hidden;
+
+    }
+
+    figcaption{
+
+        position: absolute;
+        color: black;
+        transition: 0.3s;
+        bottom: -250px;
+        width: 100%;
+        text-align: center;
+        padding: 5%;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    figure:hover figcaption{
+
+        bottom: 0px;
+    }
+
+    /**** section iniesta ****/
+
+    .caja__iniesta{
+
+        height: 56.9%;
+        display: flex;
+        flex-direction: row;
+        background-color: #fe2a00;
+        align-items: center;
+    }
+
+    .foto__iniesta{
+        float: left;
+        width: 50%;
+    }
+
+    .texto__iniesta{
+
+        color: #fff;
+        position: relative;
+        text-align: center;
+    }
+
+    .sobre{
+
+        text-transform: uppercase;
+        position: relative;
+        font-size: 50px;
+        font-family: 'Anton';
+        left: 100px;
+        bottom: 90px;
+    }
+
+    .sobre__mas{
+
+        width: 50%;
+        position: relative;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif ;
+        left: 40%;
+        bottom: 50px;
+        line-height: 1.6em;
+        font-weight: lighter;
+    }
+
+    .palabra__iniesta{
+
+        text-transform: uppercase;
+        color: black;
+        font-family: 'Anton';
+        font-size: 30px;
+    }
+
+    .boton__leermas{
+
+        position: relative;
+        width: 175.99px;
+        height: 45.99px;
+        background-color: black;
+        color: #fff;
+        top: 120px;
+        right: 370px;
+        font-size: 12px;
+        border: 1px solid black;
+
+    }
+
+    .boton__leermas:hover{
+
+        background-color: black;
+        opacity: 0.7;
+        transition: 0.3s;
+    }
+
+
+
+
+    /** FOOTER **/
+
+    .caja__footer{
+
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        height: 8%;
+        background-color: #fff;
+        text-align: center;
+        align-items:  center;
+    }
+
+    .texto__footer{
+
+        position: relative;
+        margin: auto;
+        font-family: 'Montserrat';
+    }
+
+
+@media (max-width: 600px) {
+
+    /** NAV **/
+
+    .checkbtn{
+        display: block;
+        position: relative;
+        top: 40px;   
+    }
+
+    .logo__redes{
+        display: none;
+    }
+
+    .inicio__sesion{
+        display: none;
+    }
+
+
+    .body__nav{
+        
+        height: 12%;
+    }
+
+    .body__nav__ul{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .menu__desplegable{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: grey;
+        top: 110px;
+        left: -100%;
+        transition: all .5s;
+    }
+    
+    .body__nav__ul > li{
+        position: relative;
+        font-size: 20px;
+        width: 190px;
+        height: 7%;
+        top: -100px;
+        right: 90px;
+        text-align: left;
+        border: none;
+        border-right: 1px solid #ff692f;
+        margin-top: 10px;
+        padding-top: 20px;
+    }
+
+
+    .body__nav__ul li:hover{
+        transition: 0.1s;
+        font-size: 21px;
+        border: none;
+    }
+
+    .sublista{
+        position: relative;
+        background-color: grey;
+        bottom: 55px;
+        left: 190px;
+    }
+    
+    .sublista li{
+        position: relative;
+        background-color: #333333;
+        border: none;
+        border-top: 1px solid black;
+        height: 90%;
+        width: 100%;
+        padding: 10px 0 10px 10px;    
+    }
+    
+    .sublista a{
+        color: #fafafa;
+    }
+
+
+
+    #check:checked ~ .menu__desplegable{
+        left:0;
+    }
+
+
+    /** HEADER **/
+    .header__FUTDREAM{
+        font-size: 55px;
+    }
+
+    .linea__titulo{
+
+        width: 5%;
+        left: 33%;
+        top: 27.5%;
+    }
+
+    .linea__titulo2{
+
+        width: 5%;
+        left: 63%;
+        top: 27.5%;
+    }
+
+
+    /* cartas */
+
+    .cartas{
+        height: 50%;
+    }
+
+    .section__post__1{
+        
+        width: 65%;
+        height: 63%;
+        bottom: 30%;
+        left: 20%;
+        display:block;
+        align-items: center;
+        border: 1px solid black;
+        background-color: white;
+    }
+
+    .post__p__1{
+
+        font-size: 20px;
+        padding-top: 12px;
+        top: 0px;
+        border: 1px solid black;
+    }
+
+    .boton__mobile{
+        display: block;
+        position: relative;
+        width: 25%;
+        height: 15%;
+        color: #fff;
+        background-color: #fe2a00;
+        border: 1px solid white;
+        margin: auto;
+    }
+
+    
+    .boton__mobile:hover{
+        
+        background-color: black;
+        opacity: 0.70;
+        transition: 0.65s;
+    }
+    
+    .post__nombre{
+       display: none;
+    }
+
+    .section__secundaria{
+        display: none;
+    }
+
+
+    /** tienda **/
+
+    .caja__tiendas{
+        position: relative;
+        height: 100%;
+        
+    }
+
+    .container__img p{
+        position: relative;
+        font-size: 13px;
+        left: 25%;
+    }
+
+    .container__img__1{
+        height: 250px;
+        width: 240px;      
+        right: 20%; 
+    }
+
+    .container__img__2{
+        height: 250px;
+        width: 240px;
+        margin-top: 80px;
+        right: 19%; 
+    }
+
+
+    /** sobre **/
+
+    .caja__iniesta{
+        height: 32%;
+    }
+    .foto__iniesta{
+        display: none;
+    }
+
+    .texto__iniesta{
+        margin-top: 100px;
+    }
+
+    .sobre{
+        font-size: 30px;
+        left: 13%;
+    }
+
+    .sobre__mas{
+        font-size: 16px;
+        left: 39%;
+    }
+
+    .palabra__iniesta{
+        font-size: 22px;
+    }
+
+    .boton__leermas{
+
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        right: 200%;
+    }
+
+    /** footer **/
+
+    .caja__footer{
+        height: 5%;
+    }
+
+
+    
+
+}
+
+/** Tablet **/
+
+@media only screen and (min-width:600px) and (max-width: 768px) {
+
+     /** NAV **/
+
+     .checkbtn{
+        display: block;
+        position: relative;
+        top: 40px;
+        
+    }
+
+    .logo__redes{
+        display: none;
+    }
+
+    .inicio__sesion{
+       display: none;
+    }
+
+    .body__nav{
+        
+        height: 12%;
+    }
+
+    .body__nav__ul{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .menu__desplegable{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: grey;
+        top: 110px;
+        left: -100%;
+        transition: all .5s;
+    }
+    
+    .body__nav__ul > li{
+        position: relative;
+        font-size: 20px;
+        width: 190px;
+        height: 7%;
+        top: -100px;
+        right: 90px;
+        text-align: left;
+        border: none;
+        border-right: 1px solid #ff692f;
+        margin-top: 10px;
+        padding-top: 20px;
+    }
+
+
+    .body__nav__ul li:hover{
+        transition: 0.1s;
+        font-size: 21px;
+        border: none;
+    }
+
+    .sublista{
+        position: relative;
+        background-color: grey;
+        bottom: 55px;
+        left: 190px;
+    }
+    
+    .sublista li{
+        position: relative;
+        background-color: #333333;
+        border: none;
+        border-top: 1px solid black;
+        height: 90%;
+        width: 100%;
+        padding: 10px 0 10px 10px;    
+    }
+    
+    .sublista a{
+        color: #fafafa;
+    }
+
+
+
+    #check:checked ~ .menu__desplegable{
+        left:0;
+    }
+
+
+    /** HEADER **/
+       .header__FUTDREAM{
+        font-size: 75px;
+    }
+
+    .linea__titulo{
+
+        width: 5%;
+        left: 33%;
+        top: 27.5%;
+    }
+
+    .linea__titulo2{
+
+        width: 5%;
+        left: 63%;
+        top: 27.5%;
+    }
+
+
+    /* cartas */
+
+    .cartas{
+        height: 50%;
+    }
+
+    .section__post__1{
+        
+        width: 65%;
+        height: 63%;
+        bottom: 30%;
+        left: 20%;
+        display:block;
+        align-items: center;
+        border: 1px solid black;
+        background-color: white;
+    }
+
+    .post__p__1{
+
+        font-size: 20px;
+        top: 0px;
+        border: 1px solid black;
+    }
+
+    .boton__mobile{
+        display: block;
+        position: relative;
+        width: 25%;
+        height: 15%;
+        color: #fff;
+        background-color: #fe2a00;
+        border: 1px solid white;
+        margin: auto;
+    }
+
+    
+    .boton__mobile:hover{
+        
+        background-color: black;
+        opacity: 0.70;
+        transition: 0.65s;
+    }
+    
+
+    .section__secundaria{
+        display: none;
+    }
+
+
+    /** tienda **/
+
+    .caja__tiendas{
+        position: relative;
+        height: 110%;
+        
+    }
+
+    .container__img p{
+        position: relative;
+        font-size: 17px;
+        left: 25%;
+    }
+
+    .container__img__1{
+        width: 300px;      
+        height: 300px;
+        right: 20%; 
+    }
+
+    .container__img__2{
+        height: 300px;
+        width: 300px;
+        margin-top: 80px;
+        right: 19%; 
+    }
+
+    /** sobre **/
+
+    .caja__iniesta{
+        height: 32%;
+    }
+    .foto__iniesta{
+        display: none;
+    }
+
+    .texto__iniesta{
+        margin-top: 100px;
+    }
+
+    .sobre{
+        font-size: 30px;
+        left: 13%;
+    }
+
+    .sobre__mas{
+        font-size: 16px;
+        left: 39%;
+    }
+
+    .palabra__iniesta{
+        font-size: 22px;
+    }
+
+    .boton__leermas{
+
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        right: 260%;
+    }
+
+    /** footer **/
+
+    .caja__footer{
+        height: 5%;
+    }
+    
+}
+
+
+/** Ordenador **/
+
+@media only screen and  (min-width: 768px) and (max-width: 900px)  {
+    
+    .logo__redes{
+        display: none;
+    }
+
+    .body__nav__ul li{
+
+        font-size: 13px;
+        width: 120px;
+    }
+
+    .sublista{
+        width: 120px;
+    }
+
+
+    .inicio__sesion{
+        display: none;
+    }
+
+
+
+    /** HEADER **/
+    .header__FUTDREAM{
+        font-size: 95px;
+    }
+
+    .linea__titulo{
+
+        width: 4%;
+        left: 36%;
+        top: 28%;
+    }
+
+    .linea__titulo2{
+
+        width: 4%;
+        left: 60%;
+        top: 28%;
+    }
+
+      /* cartas */
+
+ 
+
+    .section__post__1{
+        
+        width: 45%;
+        height: 43%;
+        bottom: 30%;
+        left: 27%;
+        display:block;
+        align-items: center;
+        border: 1px solid black;
+        background-color: white;
+    }
+
+    .post__p__1{
+
+        font-size: 20px;
+        padding-top: 12px;
+        top: 0px;
+        border: 1px solid black;
+    }
+
+    
+
+    .section__secundaria{
+        bottom: 10%;
+        width: 10%;
+        left: 10%;
+    }
+
+
+
+    /** tienda **/
+
+    .caja__tiendas{
+        position: relative;
+        height: 90%;
+    }
+
+    .texto1__img__tienda{
+        left: -30%;
+        top: 400px;
+    }
+
+    .texto2__img__tienda{
+   
+        left: 32%;
+    }
+
+    .container__img__1{
+        height: 38%;
+        width: 53%;      
+        right: 30%; 
+    }
+
+    .container__img__2{
+        height: 38%;
+        width: 53%;
+        left: 30%; 
+        bottom: 350px;
+    }
+
+        /** sobre **/
+
+        .caja__iniesta{
+            height: 39%;
+        }
+        .foto__iniesta{
+            display: none;
+        }
+    
+        .texto__iniesta{
+            margin-top: 100px;
+        }
+    
+        .sobre{
+            font-size: 35px;
+            left: 8%;
+        }
+    
+        .sobre__mas{
+            font-size: 20px;
+            left: 35%;
+        }
+    
+        .palabra__iniesta{
+            font-size: 22px;
+        }
+    
+        .boton__leermas{
+    
+            width: 100px;
+            height: 30px;
+            font-size: 10px;
+            right: 370%;
+        }
+    
+        /** footer **/
+    
+        .caja__footer{
+            height: 5%;
+        }
+}
+    
+
+/* Ordenador */
+
+@media only screen and (min-width: 900px) and (max-width: 1480px)  {
+    
+
+     /** HEADER **/
+     .header__FUTDREAM{
+        font-size: 95px;
+    }
+
+    .linea__titulo{
+
+        width: 2%;
+        left: 40%;
+        top: 28%;
+    }
+
+    .linea__titulo2{
+
+        width: 2%;
+        left: 57%;
+        top: 28%;
+    }
+
+    
+    /** tienda **/
+    .caja__tiendas{
+        position: relative;
+    }
+
+    .texto1__img__tienda{
+        left: -30%;
+        top: 370px;
+    }
+
+    .texto2__img__tienda{
+        left: 32%;
+        top: 30px;
+    }
+
+    .container__img__1{
+        height: 42%;
+        width: 53%;      
+        right: 30%; 
+    }
+
+    .container__img__2{
+        height: 42%;
+        width: 53%;
+        left: 30%; 
+        bottom: 347px;
+    }
+
+     /** sobre **/
+
+     .caja__iniesta{
+        height: 32%;
+    }
+
+    .texto__iniesta{
+        margin-top: 100px;
+    }
+
+    .sobre{
+        font-size: 30px;
+        left: 13%;
+    }
+
+    .sobre__mas{
+        font-size: 16px;
+        left: 39%;
+    }
+
+    .palabra__iniesta{
+        font-size: 22px;
+    }
+
+    .boton__leermas{
+
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        right: 200%;
+    }
+
+}
+
